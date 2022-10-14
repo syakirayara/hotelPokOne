@@ -1,0 +1,26 @@
+.loginButton, .registerButton {
+    width: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.loginButton {
+    background: var(--btn-bg);
+}
+
+.loginButton:hover {
+    background: var(--darker-btn-bg);
+}
+
+.registerButton {
+    background: transparent;
+    border: 2px solid var(--btn-bg);
+}
+
+.registerButton:hover {
+    background: var(--btn-bg);
+}
+
+.bookBtn {
+    background: #5D5FEF;
+}
